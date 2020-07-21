@@ -17,6 +17,8 @@ This is a machine learning project used to detect heart diseases using the previ
 > The broswer opens to this.
 ![Screenshot from 2020-07-21 07-15-40](https://user-images.githubusercontent.com/48138906/88003273-159a9400-cb22-11ea-97c5-2ead46501711.png)
 
+> After pressing the Predict button, the data is evaluated and then the result is shown on the same page.
+
 > You can now detect the heart disease based on different features.
 > ## prediction.ipynb
 > This python notebook has the code for the machine learning model which is trained using the data provided in "data.csv", the model is then dumped using pickle and further used to predict values using Flask.
@@ -25,7 +27,7 @@ This is a machine learning project used to detect heart diseases using the previ
 > I have used pickle to dump the model to further use it for deployment.
 > ## Heroku
 > I have used Heroku cloud services to deploy the same and the link for the same can be found here:
-> https://predictingcarprice.herokuapp.com/
+> https://predictingheartdisease.herokuapp.com/
 
 > Do star the repository, also suggestions and changes are most welcome.
 
